@@ -39,6 +39,7 @@ You can find the requirements for each challenge below:
 ## Powered By
 
 <p float="left">
-  <img src="media/bucharestai.png" width="150"/>
-  <img src="media/microsoft.png" width="150" />
+  <img valign="middle" src="media/bucharestai.png" width="150"/>
+  <img valign="middle" src="media/microsoft.png" width="150" />
+  <img valign="middle" src="media/msp.png" width="250" />
 </p>
