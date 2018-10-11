@@ -1,6 +1,10 @@
-# Bucharest.AI + Microsoft Cognitive Challenge
+# Bucharest.AI & Microsoft Cognitive Challenge
 
-This repository supports the BucharestAI + Microsoft Cognitive Services Challenge
+This repository contains all the required material for the Bucharest.AI & Microsoft Cognitive Services Challenge.
+
+## Introduction
+
+Welcome to the **Cognitive Services Challenge**! We hope you'll have fun using some of Microsoft's Artificial Intelligence services to solve our challenges, and learn how to make your applications smarter in the process.
 
 ## What are Azure Cognitive Services?
 
@@ -30,16 +34,16 @@ In order to complete all the challenges, you will need:
 
 ## The Challenges!
 
-You can find the requirements for each challenge below:
+You can find the description for each challenge below:
 
-* **Challenge #1**: [Recognize faces in images and protect people's privacy](FaceDetection.md)
+* **Challenge #1**: [Recognize faces in images while protecting people's privacy](FaceDetection.md)
 * **Challenge #2**: [Automatically inspect components on a factory production line](VisualInspection.md)
-* **Challenge #3**: Improve workplace safety by detecting left-behind equipment (TODO)
+* **Challenge #3**: [Automatically detect tools and help workers become more  efficient](ObjectDetection.md)
 
 ## Powered By
 
 <p float="left">
-  <img valign="middle" src="media/bucharestai.png" width="150"/>
-  <img valign="middle" src="media/microsoft.png" width="150" />
-  <img valign="middle" src="media/msp.png" width="250" />
+  <a href="https://city.ai/cities/bucharest/"><img valign="middle" src="media/bucharestai.png" width="150"/></a>
+  <a href="http://microsoft.com/"><img valign="middle" src="media/microsoft.png" width="150" /></a>
+  <a href="https://studentpartners.microsoft.com/"><img valign="middle" src="media/msp.png" width="200" /></a>
 </p>

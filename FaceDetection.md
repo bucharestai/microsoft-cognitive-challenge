@@ -1,4 +1,4 @@
-# Challenge #1. Detect faces and protect people's privacy
+# Challenge #1. Recognize faces in images while protecting people's privacy
 
 ## Introduction
 
@@ -37,11 +37,13 @@ To keep things simple, **you will be working with still images rather than video
 
 Your application should allow the user to upload an image, then present back to them a modified version of this image with the recognized faces highlighted, and the unrecognized faces obscured, like in the example below:
 
-| [![pre](media/ch1-pre.png)](http://videoblocks.com)  | [![post](media/ch1-post.png)](http://audioblocks.com) 
+| ![pre](media/ch1-pre.png) | ![post](media/ch1-post.png)
 |:---:|:---:|
-| initial image | processed image |
+| original image | processed image |
 
 > NOTE: You are required to create *at least one* recognizable Person (employee).
+
+> NOTE: There is no image dataset for this challenge. You could either take pictures of yourself and your team members to use on the Face API, or search online for publicly available images.
 
 ## Hints
 

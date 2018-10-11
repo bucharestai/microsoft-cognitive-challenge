@@ -1,6 +1,6 @@
 # Challenge #2. Automatically inspect components on a factory production line
 
-# Introduction
+## Introduction
 
 *(adapted from [deepsense.ai](https://deepsense.ai/spot-the-flaw-visual-quality-control-in-manufacturing/))*
 
@@ -83,7 +83,7 @@ And here are some examples of **incorrectly placed components**:
 
 We have prepared a set of images to assist you in the training and validation process.
 
-**[CLICK HERE to download the image archive](input/cognitivechallenge2.zip)**. 
+**[CLICK HERE to download the image archive for this challenge](https://sorinpecognitive.blob.core.windows.net/cognitivechallenge/cognitivechallenge2.zip)**. 
 
  > NOTE: The image dataset is based on the openly available [Images of LEGO Bricks](https://www.kaggle.com/joosthazelzet/lego-brick-images) dataset published on Kaggle.com.
 
@@ -140,14 +140,15 @@ Your application should allow the user to upload one or more test images of comp
     </table>
 </div>
 
-> NOTE: In order to make sure that your AI model can respond to unseen images, when testing ALWAYS use images from the **validation** folder inside the dataset. Images from the **validation** folder should NOT be used for training.
+> NOTE: In order to make sure that your Computer Vision model can respond to unseen images, when testing ALWAYS use images from the **validation** folder inside the dataset. Images from the **validation** folder should NOT be used for training.
 
 ## Hints
 
 1. The [Custom Vision Service](https://www.customvision.ai/) should come in handy for this challenge.
-2. Since this is a [classification](https://en.wikipedia.org/wiki/Statistical_classification) problem, you will need to create a classification project in the Custom Vision service.
+2. Since this is a [classification](https://en.wikipedia.org/wiki/Statistical_classification) problem, you will need to create a Classification project in the Custom Vision service.
 3. There are many images available inside the **training** folder, but you might not need to use all of them for training. Indeed, it may prove counterproductive to do so!
-4. Although you could opt to create just two tags (for example *Correct* and *Incorrect*), the model may perform better if you create more than two, in order to capture more possible component positions.
+4. Although you could opt to create just two tags (for example *Correct* and *Incorrect*), the model may perform better if you create more than two, in order to capture various possible component positions.
+5. The minimum number of labeled examples for each tag (for example, *Correct*) in Classification is **5**. However, the more examples you can provide, the better the model will generally perform. We recommend to provide about **50** labeled examples for each tag.
 
 ## Useful Links
 
