@@ -37,9 +37,11 @@ To keep things simple, **you will be working with still images rather than video
 
 Your application should allow the user to upload an image, then present back to them a modified version of this image with the recognized faces highlighted, and the unrecognized faces obscured, like in the example below:
 
-| ![pre](media/ch1-pre.png) | ![post](media/ch1-post.png)
+| ![pre](media/ch1-pre.jpg) | ![post](media/ch1-post.jpg)
 |:---:|:---:|
 | original image | processed image |
+
+image credit: [gettyimages.com](https://media.gettyimages.com/photos/group-of-people-playing-craps-at-casino-picture-id78494343)
 
 > NOTE: You are required to create *at least one* recognizable Person (employee).
 
